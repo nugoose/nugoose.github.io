@@ -1,3 +1,3 @@
 # nugoose.github.io
 
-pretty basic for now
+in construction
