@@ -13,13 +13,38 @@ body{
     min-height: 100%;
 }
 
+ul{
+    background-color: dodgerblue;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#mainTab{
+    border: 1px solid #FFD700;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px 25px 10px 25px;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid deepskyblue;
+}
+
+#home h1{
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
 #mainDiv{
     position: fixed;
     top: 20%;
-    left: 30%;
+    left: 20%;
 }
 
-.projects{
+#projects{
     display: inline;
 }
 
@@ -28,7 +53,7 @@ body{
     padding-bottom: 15px;
 }
 
-.projects h2{
+#projects h2{
     color: #FFD700;
 }
 
@@ -39,7 +64,28 @@ a{
 
 a:hover{
     color: #3CB371;
-    transition: all 1s;
+    transition: all 0.5s;
+}
+
+#about, #contact{
+    margin-top: 50px;
+    padding: 10px 0 10px 0;
+}
+
+#about h1, #contact h1{
+    font-size: 30px;
+    color: #1E90FF;
+    padding-bottom: 15px;
+}
+
+#about h2, #contact h2{
+    font-size: 25px;
+    color: #FFD700;
+}
+
+#contact i{
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
 }
 
 .doneDeal{
