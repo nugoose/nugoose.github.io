@@ -50,10 +50,24 @@ ul li{
 
 #nothingness {
     color: #1E90FF;
-    padding-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 #projects h2{
+    margin: 10px 0 10px 30px;
+    font-size: 30px;
+    color: aquamarine;
+}
+
+#projects h3{
+    color: coral;
+    margin: 10px 0 10px 35px;
+    font-size: 25px;
+}
+
+#projects h4{
+    margin: 5px 0px 0px 50px;
+    font-size: 25px;
     color: #FFD700;
 }
 
@@ -83,7 +97,7 @@ a:hover{
     color: #FFD700;
 }
 
-#contact i{
+#contact h2 i{
     padding: 10px;
     margin: 0px 5px 0px 5px;
 }
