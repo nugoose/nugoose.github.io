@@ -6,13 +6,10 @@
 
 html{
     background-color: #333;
-    height: 100%;
+    overflow: scroll;
 }
 
-body{
-    min-height: 100%;
-}
-
+/********** NAV **********/
 ul{
     background-color: dodgerblue;
     padding-top: 8px;
@@ -38,10 +35,10 @@ ul li{
     text-align: center;
 }
 
+/******* BODY *********/
 #mainDiv{
-    position: fixed;
-    top: 20%;
-    left: 20%;
+    margin-left: 25%;
+    margin-top: 5%;
 }
 
 #projects{
@@ -61,7 +58,7 @@ ul li{
 
 #projects h3{
     color: coral;
-    margin: 10px 0 10px 35px;
+    margin: 10px 0 10px 40px;
     font-size: 25px;
 }
 
@@ -81,9 +78,15 @@ a:hover{
     transition: all 0.5s;
 }
 
-#about, #contact{
+#about{
     margin-top: 50px;
     padding: 10px 0 10px 0;
+}
+
+#contact{
+    margin-top: 50px;
+    padding: 10px 0 10px 0;
+    margin-bottom: 20px;
 }
 
 #about h1, #contact h1{
@@ -95,6 +98,7 @@ a:hover{
 #about h2, #contact h2{
     font-size: 25px;
     color: #FFD700;
+    margin-left: 30px;
 }
 
 #contact h2 i{
