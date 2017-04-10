@@ -1,17 +1,43 @@
+/********* SOLARIZED HEX CODES *********/
+:root{
+    --base03: #002b36;
+    --base02: #073642;
+    --base01: #586e75;
+    --base00: #657b83;
+    --base0: #839496;
+    --base1: #93a1a1;
+    --base2: #eee8d5;
+    --base3: #fdf6e3;
+    --yellow: #b58900;
+    --orange: #cb4b16;
+    --red: #dc322f;
+    --magenta: #d33682;
+    --violet: #6c71c4;
+    --blue: #268bd2;
+    --cyan: #2aa198;
+    --green: #859900;
+}
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
 }
 
+body{
+    min-height: 100%;
+}
+
 html{
-    background-color: #333;
-    overflow: scroll;
+    height: 100%;
+    background-color: var(--base02);
+    -webkit-transition: 1s;
+    transition: 1s;
 }
 
 /********** NAV **********/
 ul{
-    background-color: dodgerblue;
+    background-color: var(--blue);
     padding-top: 8px;
     padding-bottom: 8px;
     position: fixed;
@@ -20,7 +46,7 @@ ul{
 }
 
 #mainTab{
-    border: 1px solid #FFD700;
+    border: 2px solid var(--cyan);
 }
 
 ul li{
@@ -29,13 +55,31 @@ ul li{
     margin: 10px;
     color: white;
     font-size: 20px;
-    border: 1px solid deepskyblue;
+    border: 2px solid var(--cyan);
 }
 
 #home h1{
     padding-top: 20px;
     font-size: 40px;
     text-align: center;
+}
+
+#toggleButton{
+    border: none;
+    position: absolute;
+    right: 15px;
+    top: 17px;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#toggleButton:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 /******* BODY *********/
@@ -49,18 +93,18 @@ ul li{
 }
 
 #nothingness {
-    color: #1E90FF;
+    color: var(--blue);
     margin-bottom: 5px;
 }
 
 #projects h2{
     margin: 10px 0 10px 30px;
     font-size: 30px;
-    color: aquamarine;
+    color: var(--green);
 }
 
 #projects h3{
-    color: coral;
+    color: var(--orange);
     margin: 10px 0 10px 40px;
     font-size: 25px;
 }
@@ -68,7 +112,7 @@ ul li{
 #projects h4{
     margin: 5px 0px 0px 50px;
     font-size: 25px;
-    color: #FFD700;
+    color: var(--cyan);
     padding: 5px;
 }
 
@@ -78,7 +122,7 @@ a{
 }
 
 a:hover{
-    color: #3CB371;
+    color: var(--violet);
     transition: all 0.5s;
 }
 
@@ -95,13 +139,13 @@ a:hover{
 
 #about h1, #contact h1{
     font-size: 30px;
-    color: #1E90FF;
+    color: var(--blue);
     padding-bottom: 15px;
 }
 
 #about h2, #contact h2{
     font-size: 25px;
-    color: #FFD700;
+    color: var(--cyan);
     margin-left: 30px;
     margin-right: 400px;
     padding: 10px;
@@ -112,6 +156,7 @@ a:hover{
     margin: 0px 5px 0px 5px;
 }
 
-.doneDeal{
-    
+#footer{
+    margin: 0;
+    padding: 10px;
 }
